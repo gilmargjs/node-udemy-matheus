@@ -10,7 +10,7 @@
 
  app.get('/dashbord', (req, res) => {
 
-     const items = ['gilmar', 'jois', 'jefferson', 'jonas']
+     const items = ['gilmar', 'jois', 'jefferson', 'jonas','GILMAX']
 
      //enviando pro front
      res.render('dashbord', {
